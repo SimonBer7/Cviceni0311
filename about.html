@@ -86,70 +86,38 @@
 <div class="bd-example">
   <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
     <a class="navbar-brand" href="#">BBB-Auto</a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="#scrollspyHeading1">First</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#scrollspyHeading2">Second</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item active" href="#scrollspyHeading3">Third</a></li>
-          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
-        </ul>
-      </li>
-    </ul>
+    <div class="row">
+    <div class="col-4">
+      <div id="list-example" class="list-group">
+        <a class="list-group-item list-group-item-action active" href="#list-item-1">JSME</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">TEN</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">NEJLEPŠÍ</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">ČESKÝ</a>
+		 <a class="list-group-item list-group-item-action" href="#list-item-5">BAZAR</a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+        <h4 id="list-item-1">JSME</h4>
+        <p>Společnost BBB-Auto je první a jediná síť prodejen ojetých vozů v ČR, která se může prokázat prestižní certifikací společnosti TÜV NORD GROUP – nadnárodní skupiny, která sdružuje 51 firem, působících ve více než 70 zemích světa a která se zaměřuje na technickou inspekci a certifikaci.</</p>
+        <h4 id="list-item-2">TEN</h4>
+        <p>BBB-Auto tak může svým zákazníkům skutečně garantovat kvalitu a jistotu všech služeb i dalších produktů spojených při koupi a prodeji vozů – a to jak z pohledu legislativy, technického stavu a kontroly, tak i z hlediska finančních náležitostí.</p>
+        <h4 id="list-item-3">NEJLEPŠÍ</h4>
+        <p>Zákazníci se tak mohou spolehnout nejen na garanci služeb, ale i na jejich šíři. BBB-Auto tedy nabízí i produkty k financování nákupu vozu, přes jeho pojištění až po zabezpečení vozu proti krádeži či výhodné asistenční služby a další.</p>
+        <h4 id="list-item-4">ČESKÝ</h4>
+        <p>BBB-Auto je ryze česká společnost, která provozuje síť svých prodejních poboček po celé ČR a svým zákazníkům nabízí řádově tisíce kvalitních a prověřených vozů. Společnost Auto ESA si zakládá na úzkém vztahu s klienty a kvalitních certifikovaných službách.</p>
+		<h4 id="list-item-5">BAZAR</h4>
+        <p>Chce stále poskytovat profesionální klientské služby se zpětnou vazbou a být skutečně nejspolehlivějším autobazarem s kvalitními vozy všech tříd opravdu pro každého zákazníka. Více než 25 let úspěšného působení společnosti BBB-Auto tuto skutečnost jen dokazuje – značka BBB-Auto je synonymem pro kvalitu, spokojenost a záruky.</p>
+      </div>
+    </div>
+  </div>
   </nav>
-  <div class="scrollspy-example bg-light p-3 rounded-2" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
-    <h4 id="scrollspyHeading1">JSME</h4>
-    <p>Společnost BBB-Auto je první a jediná síť prodejen ojetých vozů v ČR, která se může prokázat prestižní certifikací společnosti TÜV NORD GROUP – nadnárodní skupiny, která sdružuje 51 firem, působících ve více než 70 zemích světa a která se zaměřuje na technickou inspekci a certifikaci.</p>
-    <h4 id="scrollspyHeading2">TEN</h4>
-    <p>BBB-Auto tak může svým zákazníkům skutečně garantovat kvalitu a jistotu všech služeb i dalších produktů spojených při koupi a prodeji vozů – a to jak z pohledu legislativy, technického stavu a kontroly, tak i z hlediska finančních náležitostí.</p>
-    <h4 id="scrollspyHeading3">NEJLEPŠÍ</h4>
-    <p>Zákazníci se tak mohou spolehnout nejen na garanci služeb, ale i na jejich šíři. BBB-Auto tedy nabízí i produkty k financování nákupu vozu, přes jeho pojištění až po zabezpečení vozu proti krádeži či výhodné asistenční služby a další.</p>
-    <h4 id="scrollspyHeading4">ČESKÝ</h4>
-    <p>BBB-Auto je ryze česká společnost, která provozuje síť svých prodejních poboček po celé ČR a svým zákazníkům nabízí řádově tisíce kvalitních a prověřených vozů. Společnost Auto ESA si zakládá na úzkém vztahu s klienty a kvalitních certifikovaných službách.</p>
-    <h4 id="scrollspyHeading5">BAZAR</h4>
-    <p>Chce stále poskytovat profesionální klientské služby se zpětnou vazbou a být skutečně nejspolehlivějším autobazarem s kvalitními vozy všech tříd opravdu pro každého zákazníka. Více než 25 let úspěšného působení společnosti BBB-Auto tuto skutečnost jen dokazuje – značka BBB-Auto je synonymem pro kvalitu, spokojenost a záruky.
-
-</p>
-  </div>
+  
 </div>
 </div>
 
 <br><br>
 
-
-<div class="container">
-<div class="row">
-  <div class="col-4">
-    <div id="list-example" class="list-group">
-      <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-      <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-    </div>
-  </div>
-  <div class="col-8">
-    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-      <h4 id="list-item-1">Item 1</h4>
-    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-      <h4 id="list-item-2">Item 2</h4>
-    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-      <h4 id="list-item-3">Item 3</h4>
-    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-      <h4 id="list-item-4">Item 4</h4>
-    <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
-    </div>
-  </div>
-</div>
-</div>
-
-<br><br>
 
 <div class="container">
   <footer class="py-5">
